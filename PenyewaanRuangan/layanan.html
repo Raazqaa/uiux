@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            scrollbar-width: none;
+        }
+
+        *,
+        *::before,
+        *::after {
+            transition-property: background-color, color, border-color, box-shadow, transform, opacity, filter;
+            transition-duration: 200ms;
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+
+</head>
+
+<body class="">
+    <header class="flex bg-zinc-100 shadow-lg items-center px-10 h-[10vh] justify-between fixed w-full mb-10">
+        <div class="flex items-center">
+            <img src="anonymous.webp" alt="" class="w-16 rounded-xl mx-2">
+            <h2 class="font-semibold text-xl">RapatinAjaYuk</h2>
+        </div>
+        <nav>
+            <ul class="flex gap-3 font-semibold">
+                <li>
+                    <a class="px-3 py-[3px] rounded-md hover:opacity-75 " href="home.html">Home</a>
+                </li>
+                <li>
+                    <a class="px-3 py-[3px] rounded-md hover:opacity-75 underline underline-offset-4"
+                        href="layanan.html">Layanan</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex items-center ">
+            <img src="anonymous.webp" class="rounded-full mr-2 w-10" alt="">
+            <a href="login.html" class="hover:text-slate-600 font-semibold">Login</a>
+        </div>
+    </header>
+</body>
+
+</html>
